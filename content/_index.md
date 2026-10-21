@@ -38,11 +38,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I’m interested in machine learning methods that are reliable enough to use in high-stakes, real-world settings. My work so far follows three threads:
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        - Learning-assisted optimization: using ML to speed up large-scale optimization while respecting the physical and economic constraints of the problem, e.g. accelerating Benders decomposition for power-system expansion planning (MSc thesis, TU Delft).
+        - Trustworthy ML: understanding when and why models fail, through robustness, uncertainty and interpretability, with a growing focus on the reliability and security of large language models.
+        - Representation learning for vision and medicine: self-supervised pre-training for video (CSLRF-2D) and graph neural networks for histopathology report generation (Honours thesis, UNSW).
 
-        Please reach out to collaborate 😃
+        I’m currently looking for PhD positions and research roles in Munich. If you work on related problems, I’d be glad to hear from you, so please reach out 😃
     design:
       columns: '1'
   - block: collection
@@ -75,35 +77,35 @@ sections:
           - events
     design:
       view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: blog
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 10
+  #     # Filter on criteria
+  #     filters:
+  #       author: ''
+  #       category: ''
+  #       tag: ''
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ''
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: card
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
