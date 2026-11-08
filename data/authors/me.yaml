@@ -5,15 +5,15 @@ name:
   display: Pengxuan (Peter) Huang
   given: Pengxuan
   family: Huang
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''  
+  pronunciation: '' 
   pronouns: he/him
 postnominals:
   - PhD
   - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: AI Research Scientist
 bio: |
   I’m a machine learning researcher currently working on integrating deep learning within mathematical optimization to solve large scale MILP in energy system. 
   I hold an MSc in Computer Science from TU Delft and a BSc in Computer Science & Actuarial Studies from UNSW Sydney.
@@ -45,6 +45,7 @@ interests:
   - Data-Driven Optimization
   - Self-Supervised Learning
   - AI in Energy, Medicine, and Agriculture
+  - AI and Software building Hackathons
 
 
 education:
@@ -103,21 +104,19 @@ experience:
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: Programming (Python, C, Java)
         level: 5
-      - label: Machine Learning
+      - label: Deep Learning (PyTorch, Tensorflow, Huggingface)
         level: 5
-      - label: Cloud Computing
-        level: 4
+      - label: Optimizaiton (Gurobi, highs, Pyomo)
+        level: 5
+      - label: DevOps&MLOps (Docker Kubernets)
   - name: Research & Communication
     items:
       - label: Academic Writing
         level: 5
       - label: Conference Presentations
         level: 4
-      - label: Grant Proposals
-        level: 4
-
 languages:
   - name: Mandarin
     level: 5
@@ -132,9 +131,9 @@ languages:
     level: 1
     label: Beginner
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy

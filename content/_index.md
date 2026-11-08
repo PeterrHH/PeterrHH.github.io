@@ -44,39 +44,39 @@ sections:
         - Trustworthy ML: understanding when and why models fail, through robustness, uncertainty and interpretability, with a growing focus on the reliability and security of large language models.
         - Representation learning for vision and medicine: self-supervised pre-training for video (CSLRF-2D) and graph neural networks for histopathology report generation (Honours thesis, UNSW).
 
-        I’m currently looking for PhD positions and research roles in Munich. If you work on related problems, I’d be glad to hear from you, so please reach out 😃
+        I’m currently looking for PhD positions and research roles in Munich. If you work on related problems, I am always looking for collaboration.😃
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publications
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - publications
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
   # - block: collection
   #   id: news
   #   content:

@@ -7,8 +7,8 @@ type: landing
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: The key projects I have worked on over the years, from research, personal software project and hackathons.
       filters:
         folders:
           - projects
